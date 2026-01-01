@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Stories for 4-Year-Olds</title>
+    <style>
+        @media print {
+            .page-break {
+                page-break-after: always;
+            }
+        }
+        
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        
+        .page {
+            background: white;
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 8.5in;
+            min-height: 11in;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #4a90e2;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #ff6b6b;
+        }
+        
+        h2 {
+            color: #ff6b6b;
+            font-size: 28px;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        
+        .story {
+            font-size: 24px;
+            line-height: 1.8;
+            color: #333;
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff9e6;
+            border-left: 5px solid #ffd93d;
+            border-radius: 5px;
+        }
+        
+        .highlight {
+            background-color: #ffd93d;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .flashcard-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .flashcard {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .flashcard:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        
+        .flashcard:active {
+            transform: scale(0.98);
+        }
+        
+        .flashcard-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 120px;
+            background: rgba(102, 126, 234, 0.95);
+            opacity: 0;
+            transform: scale(0.5);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            border-radius: 15px;
+            z-index: 10;
+        }
+        
+        .flashcard-image.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+        
+        .flashcard-text {
+            position: relative;
+            z-index: 5;
+            transition: opacity 0.3s ease;
+        }
+        
+        .flashcard.show-image .flashcard-text {
+            opacity: 0.3;
+        }
+        
+        .flashcard-small {
+            font-size: 36px;
+        }
+        
+        .word-list {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .word-list h3 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        
+        .word-list ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        .word-list li {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .section-title {
+            text-align: center;
+            color: #ff6b6b;
+            font-size: 32px;
+            margin: 40px 0 20px 0;
+        }
+        
+        .illustration {
+            text-align: center;
+            font-size: 60px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- PAGE 1: Title and Introduction -->
+    <div class="page">
+        <h1>🌟 Learning Stories for 4-Year-Olds 🌟</h1>
+        <div class="illustration">📚✨</div>
+        <h2>Welcome!</h2>
+        <div class="story">
+            <p>Hello! This book is full of fun stories to help you learn to read!</p>
+            <p>We'll start with words that have 4 letters and special sounds called "blends."</p>
+            <p>Let's begin our reading adventure! 🚀</p>
+        </div>
+    </div>
+
+    <!-- PAGE 2-3: Flashcards for ST blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: ST Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">STOP</div>
+            <div class="flashcard">STEP</div>
+            <div class="flashcard">STAR</div>
+            <div class="flashcard">STEM</div>
+        </div>
+        <div class="word-list">
+            <h3>ST Blend Words:</h3>
+            <ul>
+                <li>STOP</li>
+                <li>STEP</li>
+                <li>STAR</li>
+                <li>STEM</li>
+                <li>STIR</li>
+                <li>STUN</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 4: Story with ST words -->
+    <div class="page page-break">
+        <h2>The Star That Could Stop</h2>
+        <div class="illustration">⭐</div>
+        <div class="story">
+            <p>Once there was a <span class="highlight">STAR</span> in the sky.</p>
+            <p>This <span class="highlight">STAR</span> could <span class="highlight">STOP</span> time!</p>
+            <p>When you <span class="highlight">STEP</span> outside at night,</p>
+            <p>You might see this <span class="highlight">STAR</span> shine so bright!</p>
+            <p>It would <span class="highlight">STOP</span> the moon from moving,</p>
+            <p>And make the night more grooving!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 5-6: Flashcards for PL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: PL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">PLAN</div>
+            <div class="flashcard">PLUG</div>
+            <div class="flashcard">PLOP</div>
+            <div class="flashcard">PLUM</div>
+        </div>
+        <div class="word-list">
+            <h3>PL Blend Words:</h3>
+            <ul>
+                <li>PLAN</li>
+                <li>PLUG</li>
+                <li>PLOP</li>
+                <li>PLUM</li>
+                <li>PLUS</li>
+                <li>PLOT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 7: Story with PL words -->
+    <div class="page page-break">
+        <h2>The Plan for the Plum</h2>
+        <div class="illustration">🍑</div>
+        <div class="story">
+            <p>Little Tim had a <span class="highlight">PLAN</span>.</p>
+            <p>He wanted to pick a <span class="highlight">PLUM</span>.</p>
+            <p>He saw it fall with a <span class="highlight">PLOP</span>!</p>
+            <p>Then he found a <span class="highlight">PLUG</span>.</p>
+            <p>What a funny <span class="highlight">PLAN</span>!</p>
+            <p>To pick a <span class="highlight">PLUM</span> with a <span class="highlight">PLUG</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 8-9: Flashcards for DR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: DR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">DROP</div>
+            <div class="flashcard">DRAG</div>
+            <div class="flashcard">DRUM</div>
+            <div class="flashcard">DRAW</div>
+        </div>
+        <div class="word-list">
+            <h3>DR Blend Words:</h3>
+            <ul>
+                <li>DROP</li>
+                <li>DRAG</li>
+                <li>DRUM</li>
+                <li>DRAW</li>
+                <li>DREW</li>
+                <li>DRIP</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 10: Story with DR words -->
+    <div class="page page-break">
+        <h2>The Drum That Could Draw</h2>
+        <div class="illustration">🥁</div>
+        <div class="story">
+            <p>There was a <span class="highlight">DRUM</span> that could <span class="highlight">DRAW</span>.</p>
+            <p>When you hit it, it would <span class="highlight">DROP</span> colors!</p>
+            <p>Red, blue, and green would <span class="highlight">DRIP</span> down.</p>
+            <p>You could <span class="highlight">DRAG</span> the colors around.</p>
+            <p>What a magical <span class="highlight">DRUM</span>!</p>
+            <p>It made art with every <span class="highlight">DRUM</span> beat!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 11-12: Flashcards for TR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: TR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">TRAP</div>
+            <div class="flashcard">TRIP</div>
+            <div class="flashcard">TREE</div>
+            <div class="flashcard">TRAY</div>
+        </div>
+        <div class="word-list">
+            <h3>TR Blend Words:</h3>
+            <ul>
+                <li>TRAP</li>
+                <li>TRIP</li>
+                <li>TREE</li>
+                <li>TRAY</li>
+                <li>TRUE</li>
+                <li>TROT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 13: Story with TR words -->
+    <div class="page page-break">
+        <h2>The Trip to the Tree</h2>
+        <div class="illustration">🌳</div>
+        <div class="story">
+            <p>Sam went on a <span class="highlight">TRIP</span>.</p>
+            <p>He wanted to see a big <span class="highlight">TREE</span>.</p>
+            <p>He carried a <span class="highlight">TRAY</span> with snacks.</p>
+            <p>He didn't want to <span class="highlight">TRIP</span> and fall!</p>
+            <p>When he got to the <span class="highlight">TREE</span>,</p>
+            <p>He sat on a <span class="highlight">TRAY</span> under the leaves!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 14-15: Flashcards for CL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: CL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">CLAP</div>
+            <div class="flashcard">CLIP</div>
+            <div class="flashcard">CLUB</div>
+            <div class="flashcard">CLOG</div>
+        </div>
+        <div class="word-list">
+            <h3>CL Blend Words:</h3>
+            <ul>
+                <li>CLAP</li>
+                <li>CLIP</li>
+                <li>CLUB</li>
+                <li>CLOG</li>
+                <li>CLOT</li>
+                <li>CLUB</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 16: Story with CL words -->
+    <div class="page page-break">
+        <h2>The Club That Could Clap</h2>
+        <div class="illustration">👏</div>
+        <div class="story">
+            <p>There was a <span class="highlight">CLUB</span> for clapping.</p>
+            <p>Everyone would <span class="highlight">CLAP</span> together!</p>
+            <p>They used a <span class="highlight">CLIP</span> to keep time.</p>
+            <p>One day, a <span class="highlight">CLOG</span> got stuck!</p>
+            <p>But they kept on <span class="highlight">CLAP</span>ping!</p>
+            <p>What a fun <span class="highlight">CLUB</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 17-18: Flashcards for BR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: BR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">BRIM</div>
+            <div class="flashcard">BRAG</div>
+            <div class="flashcard">BRED</div>
+            <div class="flashcard">BRAD</div>
+        </div>
+        <div class="word-list">
+            <h3>BR Blend Words:</h3>
+            <ul>
+                <li>BRIM</li>
+                <li>BRAG</li>
+                <li>BRED</li>
+                <li>BRAD</li>
+                <li>BRAN</li>
+                <li>BRAT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 19: Story with BR words -->
+    <div class="page page-break">
+        <h2>The Bread That Was Bred</h2>
+        <div class="illustration">🍞</div>
+        <div class="story">
+            <p>There was bread that was <span class="highlight">BRED</span>.</p>
+            <p>It was full to the <span class="highlight">BRIM</span> with seeds!</p>
+            <p>Little <span class="highlight">BRAD</span> loved this bread.</p>
+            <p>He didn't <span class="highlight">BRAG</span> about it.</p>
+            <p>He just ate it with joy!</p>
+            <p>What yummy bread!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 20: Review Page -->
+    <div class="page page-break">
+        <h2 class="section-title">🌟 Great Job! 🌟</h2>
+        <div class="illustration">🎉</div>
+        <div class="story">
+            <p>You've learned so many words!</p>
+            <p>Words with ST, PL, DR, TR, CL, and BR!</p>
+            <p>Keep practicing and reading!</p>
+            <p>You're doing amazing! ⭐</p>
+        </div>
+        <div class="word-list">
+            <h3>Words You Learned:</h3>
+            <ul>
+                <li>STOP</li>
+                <li>STAR</li>
+                <li>PLAN</li>
+                <li>PLUM</li>
+                <li>DROP</li>
+                <li>DRUM</li>
+                <li>TRIP</li>
+                <li>TREE</li>
+                <li>CLAP</li>
+                <li>CLUB</li>
+                <li>BRIM</li>
+                <li>BRED</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 21-22: Flashcards for FL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: FL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">FLAP</div>
+            <div class="flashcard">FLIP</div>
+            <div class="flashcard">FLOP</div>
+            <div class="flashcard">FLED</div>
+        </div>
+        <div class="word-list">
+            <h3>FL Blend Words:</h3>
+            <ul>
+                <li>FLAP</li>
+                <li>FLIP</li>
+                <li>FLOP</li>
+                <li>FLED</li>
+                <li>FLAT</li>
+                <li>FLUX</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 23: Story with FL words -->
+    <div class="page page-break">
+        <h2>The Fish That Could Flip</h2>
+        <div class="illustration">🐟</div>
+        <div class="story">
+            <p>There was a fish that could <span class="highlight">FLIP</span>.</p>
+            <p>It would <span class="highlight">FLAP</span> its fins in the air!</p>
+            <p>Then it would <span class="highlight">FLOP</span> back in the water.</p>
+            <p>One day it <span class="highlight">FLED</span> from a big wave!</p>
+            <p>But it kept on <span class="highlight">FLIP</span>ping!</p>
+            <p>What a fun fish!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 24-25: Flashcards for GL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: GL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">GLAD</div>
+            <div class="flashcard">GLOP</div>
+            <div class="flashcard">GLUM</div>
+            <div class="flashcard">GLIB</div>
+        </div>
+        <div class="word-list">
+            <h3>GL Blend Words:</h3>
+            <ul>
+                <li>GLAD</li>
+                <li>GLOP</li>
+                <li>GLUM</li>
+                <li>GLIB</li>
+                <li>GLOW</li>
+                <li>GLUE</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 26: Story with GL words -->
+    <div class="page page-break">
+        <h2>The Glad Glow</h2>
+        <div class="illustration">✨</div>
+        <div class="story">
+            <p>There was a light that would <span class="highlight">GLOW</span>.</p>
+            <p>It made everyone feel <span class="highlight">GLAD</span>!</p>
+            <p>But one day it felt <span class="highlight">GLUM</span>.</p>
+            <p>It needed some <span class="highlight">GLUE</span> to fix it.</p>
+            <p>Now it <span class="highlight">GLOW</span>s again!</p>
+            <p>Everyone is <span class="highlight">GLAD</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 27-28: Flashcards for SL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: SL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">SLAP</div>
+            <div class="flashcard">SLIP</div>
+            <div class="flashcard">SLOP</div>
+            <div class="flashcard">SLID</div>
+        </div>
+        <div class="word-list">
+            <h3>SL Blend Words:</h3>
+            <ul>
+                <li>SLAP</li>
+                <li>SLIP</li>
+                <li>SLOP</li>
+                <li>SLID</li>
+                <li>SLAM</li>
+                <li>SLOT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 29: Story with SL words -->
+    <div class="page page-break">
+        <h2>The Slippery Slide</h2>
+        <div class="illustration">🛝</div>
+        <div class="story">
+            <p>There was a slide that was <span class="highlight">SLIP</span>pery!</p>
+            <p>You could <span class="highlight">SLID</span>e down so fast!</p>
+            <p>But watch out! Don't <span class="highlight">SLIP</span>!</p>
+            <p>Sometimes water would <span class="highlight">SLOP</span> on it.</p>
+            <p>That made it more fun to <span class="highlight">SLID</span>e!</p>
+            <p>What a fun slide!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 30-31: Flashcards for SP blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: SP Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">SPOT</div>
+            <div class="flashcard">SPIN</div>
+            <div class="flashcard">SPAT</div>
+            <div class="flashcard">SPED</div>
+        </div>
+        <div class="word-list">
+            <h3>SP Blend Words:</h3>
+            <ul>
+                <li>SPOT</li>
+                <li>SPIN</li>
+                <li>SPAT</li>
+                <li>SPED</li>
+                <li>SPAN</li>
+                <li>SPIT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 32: Story with SP words -->
+    <div class="page page-break">
+        <h2>The Spot That Could Spin</h2>
+        <div class="illustration">🌀</div>
+        <div class="story">
+            <p>There was a <span class="highlight">SPOT</span> on the floor.</p>
+            <p>This <span class="highlight">SPOT</span> could <span class="highlight">SPIN</span>!</p>
+            <p>When you stepped on it, you would <span class="highlight">SPIN</span> too!</p>
+            <p>It <span class="highlight">SPED</span> around and around!</p>
+            <p>What a fun <span class="highlight">SPOT</span>!</p>
+            <p>Everyone loved to <span class="highlight">SPIN</span> on it!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 33-34: Flashcards for CR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: CR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">CRAB</div>
+            <div class="flashcard">CRAM</div>
+            <div class="flashcard">CROP</div>
+            <div class="flashcard">CRIB</div>
+        </div>
+        <div class="word-list">
+            <h3>CR Blend Words:</h3>
+            <ul>
+                <li>CRAB</li>
+                <li>CRAM</li>
+                <li>CROP</li>
+                <li>CRIB</li>
+                <li>CREW</li>
+                <li>CRUX</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 35: Story with CR words -->
+    <div class="page page-break">
+        <h2>The Crab and the Crop</h2>
+        <div class="illustration">🦀</div>
+        <div class="story">
+            <p>There was a <span class="highlight">CRAB</span> by the sea.</p>
+            <p>It found a <span class="highlight">CROP</span> of seaweed.</p>
+            <p>The <span class="highlight">CRAB</span> tried to <span class="highlight">CRAM</span> it all in!</p>
+            <p>But it was too much for the <span class="highlight">CRAB</span>!</p>
+            <p>So it took just a little <span class="highlight">CROP</span>.</p>
+            <p>What a smart <span class="highlight">CRAB</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 36-37: Flashcards for FR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: FR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">FRAP</div>
+            <div class="flashcard">FRET</div>
+            <div class="flashcard">FROG</div>
+            <div class="flashcard">FROM</div>
+        </div>
+        <div class="word-list">
+            <h3>FR Blend Words:</h3>
+            <ul>
+                <li>FRAP</li>
+                <li>FRET</li>
+                <li>FROG</li>
+                <li>FROM</li>
+                <li>FRUG</li>
+                <li>FRIT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 38: Story with FR words -->
+    <div class="page page-break">
+        <h2>The Frog From the Pond</h2>
+        <div class="illustration">🐸</div>
+        <div class="story">
+            <p>There was a <span class="highlight">FROG</span> <span class="highlight">FROM</span> the pond.</p>
+            <p>This <span class="highlight">FROG</span> liked to <span class="highlight">FRET</span>.</p>
+            <p>It would <span class="highlight">FRET</span> about the weather.</p>
+            <p>But then it would hop and play!</p>
+            <p>What a funny <span class="highlight">FROG</span>!</p>
+            <p>It came <span class="highlight">FROM</span> a happy pond!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 39-40: Flashcards for GR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: GR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">GRAB</div>
+            <div class="flashcard">GRID</div>
+            <div class="flashcard">GRIN</div>
+            <div class="flashcard">GROW</div>
+        </div>
+        <div class="word-list">
+            <h3>GR Blend Words:</h3>
+            <ul>
+                <li>GRAB</li>
+                <li>GRID</li>
+                <li>GRIN</li>
+                <li>GROW</li>
+                <li>GRUB</li>
+                <li>GRIT</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 41: Story with GR words -->
+    <div class="page page-break">
+        <h2>The Grin That Could Grow</h2>
+        <div class="illustration">😊</div>
+        <div class="story">
+            <p>There was a <span class="highlight">GRIN</span> that could <span class="highlight">GROW</span>!</p>
+            <p>It started small, then got bigger!</p>
+            <p>You could <span class="highlight">GRAB</span> a smile too!</p>
+            <p>When you saw the <span class="highlight">GRIN</span>, you smiled!</p>
+            <p>And your smile would <span class="highlight">GROW</span>!</p>
+            <p>What a happy <span class="highlight">GRIN</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 42: Final Review Page -->
+    <div class="page page-break">
+        <h2 class="section-title">🎊 Amazing Work! 🎊</h2>
+        <div class="illustration">🏆</div>
+        <div class="story">
+            <p>You've learned so many blend words!</p>
+            <p>ST, PL, DR, TR, CL, BR, FL, GL, SL, SP, CR, FR, and GR!</p>
+            <p>You're becoming a great reader!</p>
+            <p>Keep practicing every day!</p>
+            <p>You're a reading star! ⭐⭐⭐</p>
+        </div>
+        <div class="word-list">
+            <h3>All the Words You Learned:</h3>
+            <ul>
+                <li>STOP</li>
+                <li>STAR</li>
+                <li>PLAN</li>
+                <li>PLUM</li>
+                <li>DROP</li>
+                <li>DRUM</li>
+                <li>TRIP</li>
+                <li>TREE</li>
+                <li>CLAP</li>
+                <li>CLUB</li>
+                <li>BRIM</li>
+                <li>BRED</li>
+                <li>FLAP</li>
+                <li>FLIP</li>
+                <li>GLAD</li>
+                <li>GLOW</li>
+                <li>SLIP</li>
+                <li>SLID</li>
+                <li>SPOT</li>
+                <li>SPIN</li>
+                <li>CRAB</li>
+                <li>CROP</li>
+                <li>FROG</li>
+                <li>FROM</li>
+                <li>GRAB</li>
+                <li>GRIN</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 43-44: Flashcards for BL blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: BL Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">BLOB</div>
+            <div class="flashcard">BLED</div>
+            <div class="flashcard">BLIP</div>
+            <div class="flashcard">BLOT</div>
+        </div>
+        <div class="word-list">
+            <h3>BL Blend Words:</h3>
+            <ul>
+                <li>BLOB</li>
+                <li>BLED</li>
+                <li>BLIP</li>
+                <li>BLOT</li>
+                <li>BLUE</li>
+                <li>BLUR</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 45: Story with BL words -->
+    <div class="page page-break">
+        <h2>The Blue Blob</h2>
+        <div class="illustration">💙</div>
+        <div class="story">
+            <p>There was a <span class="highlight">BLUE</span> <span class="highlight">BLOB</span>.</p>
+            <p>It was a big, <span class="highlight">BLUE</span> <span class="highlight">BLOB</span>!</p>
+            <p>When it moved, it made a <span class="highlight">BLIP</span> sound.</p>
+            <p>It left a <span class="highlight">BLOT</span> wherever it went.</p>
+            <p>What a funny <span class="highlight">BLUE</span> <span class="highlight">BLOB</span>!</p>
+            <p>It was so <span class="highlight">BLUE</span> and round!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 46-47: Flashcards for PR blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: PR Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">PREP</div>
+            <div class="flashcard">PRIM</div>
+            <div class="flashcard">PROP</div>
+            <div class="flashcard">PRAM</div>
+        </div>
+        <div class="word-list">
+            <h3>PR Blend Words:</h3>
+            <ul>
+                <li>PREP</li>
+                <li>PRIM</li>
+                <li>PROP</li>
+                <li>PRAM</li>
+                <li>PROD</li>
+                <li>PROW</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 48: Story with PR words -->
+    <div class="page page-break">
+        <h2>The Prim Prep</h2>
+        <div class="illustration">👔</div>
+        <div class="story">
+            <p>There was a <span class="highlight">PRIM</span> person.</p>
+            <p>They liked to <span class="highlight">PREP</span> for everything.</p>
+            <p>They used a <span class="highlight">PROP</span> to help them.</p>
+            <p>They were very <span class="highlight">PRIM</span> and neat.</p>
+            <p>They would <span class="highlight">PREP</span> all day long!</p>
+            <p>What a <span class="highlight">PRIM</span> person!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 49-50: Flashcards for SN blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: SN Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">SNAP</div>
+            <div class="flashcard">SNIP</div>
+            <div class="flashcard">SNOB</div>
+            <div class="flashcard">SNUG</div>
+        </div>
+        <div class="word-list">
+            <h3>SN Blend Words:</h3>
+            <ul>
+                <li>SNAP</li>
+                <li>SNIP</li>
+                <li>SNOB</li>
+                <li>SNUG</li>
+                <li>SNUB</li>
+                <li>SNOW</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 51: Story with SN words -->
+    <div class="page page-break">
+        <h2>The Snug Snap</h2>
+        <div class="illustration">🧤</div>
+        <div class="story">
+            <p>There was a <span class="highlight">SNAP</span> that was <span class="highlight">SNUG</span>.</p>
+            <p>It made a <span class="highlight">SNAP</span> sound when you used it.</p>
+            <p>It felt so <span class="highlight">SNUG</span> and warm!</p>
+            <p>You could <span class="highlight">SNIP</span> with it too.</p>
+            <p>What a <span class="highlight">SNUG</span> <span class="highlight">SNAP</span>!</p>
+            <p>It was perfect for keeping warm!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 52-53: Flashcards for SW blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: SW Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">SWAT</div>
+            <div class="flashcard">SWIM</div>
+            <div class="flashcard">SWIG</div>
+            <div class="flashcard">SWUM</div>
+        </div>
+        <div class="word-list">
+            <h3>SW Blend Words:</h3>
+            <ul>
+                <li>SWAT</li>
+                <li>SWIM</li>
+                <li>SWIG</li>
+                <li>SWUM</li>
+                <li>SWAP</li>
+                <li>SWAY</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 54: Story with SW words -->
+    <div class="page page-break">
+        <h2>The Swim That Swum</h2>
+        <div class="illustration">🏊</div>
+        <div class="story">
+            <p>There was a fish that loved to <span class="highlight">SWIM</span>.</p>
+            <p>It <span class="highlight">SWUM</span> all day long!</p>
+            <p>It would <span class="highlight">SWIG</span> water as it swam.</p>
+            <p>Sometimes it would <span class="highlight">SWAT</span> its tail.</p>
+            <p>What a fun fish to <span class="highlight">SWIM</span> with!</p>
+            <p>It <span class="highlight">SWUM</span> so fast!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 55-56: Flashcards for TW blend words -->
+    <div class="page page-break">
+        <h2 class="section-title">Flashcards: TW Words</h2>
+        <div class="flashcard-grid">
+            <div class="flashcard">TWIN</div>
+            <div class="flashcard">TWIG</div>
+            <div class="flashcard">TWIT</div>
+            <div class="flashcard">TWOS</div>
+        </div>
+        <div class="word-list">
+            <h3>TW Blend Words:</h3>
+            <ul>
+                <li>TWIN</li>
+                <li>TWIG</li>
+                <li>TWIT</li>
+                <li>TWOS</li>
+                <li>TWAT</li>
+                <li>TWAS</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- PAGE 57: Story with TW words -->
+    <div class="page page-break">
+        <h2>The Twin and the Twig</h2>
+        <div class="illustration">👯</div>
+        <div class="story">
+            <p>There were <span class="highlight">TWIN</span> friends.</p>
+            <p>They found a <span class="highlight">TWIG</span> together.</p>
+            <p>The <span class="highlight">TWIN</span> friends shared the <span class="highlight">TWIG</span>.</p>
+            <p>They were <span class="highlight">TWIN</span>s, so they looked the same!</p>
+            <p>What fun <span class="highlight">TWIN</span> friends!</p>
+            <p>They loved their <span class="highlight">TWIG</span>!</p>
+        </div>
+    </div>
+
+    <!-- PAGE 58: Final Comprehensive Review -->
+    <div class="page page-break">
+        <h2 class="section-title">🎉 Congratulations! 🎉</h2>
+        <div class="illustration">🌟🏆🌟</div>
+        <div class="story">
+            <p>You've learned ALL the blends!</p>
+            <p>You're an amazing reader!</p>
+            <p>Keep practicing every day!</p>
+            <p>You can read so many words now!</p>
+            <p>You're a reading superstar! ⭐⭐⭐</p>
+        </div>
+        <div class="word-list">
+            <h3>Complete List of All Blend Words You Learned:</h3>
+            <ul>
+                <li>STOP</li>
+                <li>STAR</li>
+                <li>PLAN</li>
+                <li>PLUM</li>
+                <li>DROP</li>
+                <li>DRUM</li>
+                <li>TRIP</li>
+                <li>TREE</li>
+                <li>CLAP</li>
+                <li>CLUB</li>
+                <li>BRIM</li>
+                <li>BRED</li>
+                <li>FLAP</li>
+                <li>FLIP</li>
+                <li>GLAD</li>
+                <li>GLOW</li>
+                <li>SLIP</li>
+                <li>SLID</li>
+                <li>SPOT</li>
+                <li>SPIN</li>
+                <li>CRAB</li>
+                <li>CROP</li>
+                <li>FROG</li>
+                <li>FROM</li>
+                <li>GRAB</li>
+                <li>GRIN</li>
+                <li>BLOB</li>
+                <li>BLUE</li>
+                <li>PREP</li>
+                <li>PRIM</li>
+                <li>SNAP</li>
+                <li>SNUG</li>
+                <li>SWIM</li>
+                <li>SWUM</li>
+                <li>TWIN</li>
+                <li>TWIG</li>
+            </ul>
+        </div>
+        <div class="story" style="margin-top: 30px; text-align: center;">
+            <p style="font-size: 28px; color: #ff6b6b;">🎊 Keep Reading! 🎊</p>
+        </div>
+    </div>
+
+    <script>
+        // Word to emoji/image mapping
+        const wordImages = {
+            'STOP': '🛑',
+            'STEP': '👣',
+            'STAR': '⭐',
+            'STEM': '🌿',
+            'STIR': '🥄',
+            'STUN': '💫',
+            'PLAN': '📋',
+            'PLUG': '🔌',
+            'PLOP': '💧',
+            'PLUM': '🍑',
+            'PLUS': '➕',
+            'PLOT': '📊',
+            'DROP': '💧',
+            'DRAG': '🐉',
+            'DRUM': '🥁',
+            'DRAW': '✏️',
+            'DREW': '✏️',
+            'DRIP': '💧',
+            'TRAP': '🪤',
+            'TRIP': '🧳',
+            'TREE': '🌳',
+            'TRAY': '🍽️',
+            'TRUE': '✅',
+            'TROT': '🐴',
+            'CLAP': '👏',
+            'CLIP': '📎',
+            'CLUB': '🏌️',
+            'CLOG': '🪵',
+            'CLOT': '🩸',
+            'BRIM': '👒',
+            'BRAG': '💪',
+            'BRED': '🍞',
+            'BRAD': '👦',
+            'BRAN': '🌾',
+            'BRAT': '👶',
+            'FLAP': '🦅',
+            'FLIP': '🤸',
+            'FLOP': '🐰',
+            'FLED': '🏃',
+            'FLAT': '🏠',
+            'FLUX': '⚡',
+            'GLAD': '😊',
+            'GLOP': '🍯',
+            'GLUM': '😔',
+            'GLIB': '💬',
+            'GLOW': '✨',
+            'GLUE': '🧪',
+            'SLAP': '👋',
+            'SLIP': '🧦',
+            'SLOP': '🍲',
+            'SLID': '🛝',
+            'SLAM': '🚪',
+            'SLOT': '🎰',
+            'SPOT': '🔍',
+            'SPIN': '🌀',
+            'SPAT': '💦',
+            'SPED': '🏎️',
+            'SPAN': '🌉',
+            'SPIT': '🌊',
+            'CRAB': '🦀',
+            'CRAM': '📚',
+            'CROP': '🌾',
+            'CRIB': '🛏️',
+            'CREW': '👥',
+            'CRUX': '❌',
+            'FRAP': '💥',
+            'FRET': '😟',
+            'FROG': '🐸',
+            'FROM': '📍',
+            'FRUG': '💰',
+            'FRIT': '🍟',
+            'GRAB': '✋',
+            'GRID': '📐',
+            'GRIN': '😁',
+            'GROW': '🌱',
+            'GRUB': '🐛',
+            'GRIT': '💎',
+            'BLOB': '💙',
+            'BLED': '🩸',
+            'BLIP': '📡',
+            'BLOT': '🖋️',
+            'BLUE': '💙',
+            'BLUR': '🌫️',
+            'PREP': '📝',
+            'PRIM': '👔',
+            'PROP': '🎭',
+            'PRAM': '👶',
+            'PROD': '👆',
+            'PROW': '🚢',
+            'SNAP': '📸',
+            'SNIP': '✂️',
+            'SNOB': '👑',
+            'SNUG': '🧤',
+            'SNUB': '🙄',
+            'SNOW': '❄️',
+            'SWAT': '🪰',
+            'SWIM': '🏊',
+            'SWIG': '🥤',
+            'SWUM': '🏊',
+            'SWAP': '🔄',
+            'SWAY': '🌊',
+            'TWIN': '👯',
+            'TWIG': '🌿',
+            'TWIT': '🐦',
+            'TWOS': '2️⃣',
+            'TWAT': '🦆',
+            'TWAS': '⏰'
+        };
+
+        // Initialize flashcards when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const flashcards = document.querySelectorAll('.flashcard');
+            
+            flashcards.forEach(flashcard => {
+                const word = flashcard.textContent.trim();
+                const emoji = wordImages[word] || '❓';
+                
+                // Wrap text in a span
+                const textSpan = document.createElement('span');
+                textSpan.className = 'flashcard-text';
+                textSpan.textContent = word;
+                
+                // Create image div
+                const imageDiv = document.createElement('div');
+                imageDiv.className = 'flashcard-image';
+                imageDiv.textContent = emoji;
+                
+                // Clear flashcard and add new elements
+                flashcard.textContent = '';
+                flashcard.appendChild(textSpan);
+                flashcard.appendChild(imageDiv);
+                
+                // Add click handler
+                flashcard.addEventListener('click', function() {
+                    const isShowing = this.classList.contains('show-image');
+                    
+                    if (isShowing) {
+                        // Hide image
+                        this.classList.remove('show-image');
+                        imageDiv.classList.remove('show');
+                    } else {
+                        // Show image
+                        this.classList.add('show-image');
+                        imageDiv.classList.add('show');
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
